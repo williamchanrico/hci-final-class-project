@@ -1,0 +1,17 @@
+Font - Lucida Sans Serif
+
+Burgers	- http://bostonlivingonthecheap.com/lotc-cms/wp-content/uploads/2015/04/Bostons-cheap-burgers.jpg
+
+Donuts - http://www.mapledonuts.com/uploads/donut%20platter.jpg
+
+Cookies - http://www.rd.com/wp-content/uploads/sites/2/2016/05/20-healthy-snacks-banana-oatmeal-walnuts-cookies.jpg
+
+Butter - http://happyhealthymama.com/wp-content/uploads/2015/08/P8099016.jpg
+
+Pinterst - https://static.wixstatic.com/media/8f6f59264a094af0b46e9f6c77dff83e.png/v1/fill/w_24,h_24,al_c,usm_0.66_1.00_0.01/8f6f59264a094af0b46e9f6c77dff83e.png
+
+Facebook - https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_24,h_24,al_c,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.png
+
+Twitter - https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_24,h_24,al_c,usm_0.66_1.00_0.01/c7d035ba85f6486680c2facedecdcf4d.png
+
+Instagram - https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_24,h_24,al_c,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.png
