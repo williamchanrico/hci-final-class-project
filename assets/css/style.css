@@ -10,7 +10,7 @@ html, body {
 header {
 	position: absolute;
 	width: 100%;
-	min-width: 400px;
+	min-width: 375px;
 	color: white;
 	text-align: center;
 	z-index: 1;
@@ -21,6 +21,14 @@ header {
 	display: block;
 	margin-top: 120px;
 	font-size: 4em;
+}
+
+#header-description {
+	opacity: 0.9;
+	display: block;
+	margin-top: 16px;
+	font-size: 1.5em;
+	letter-spacing: 1px;
 }
 
 ul.topnav {
@@ -119,14 +127,6 @@ li.dropdown {
 
 .image-container img {
 	opacity: 0.5;
-}
-
-#header-description {
-	opacity: 0.9;
-	display: block;
-	margin-top: 16px;
-	font-size: 1.5em;
-	letter-spacing: 1px;
 }
 
 .button-viewmore {
