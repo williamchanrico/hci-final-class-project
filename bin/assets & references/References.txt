@@ -17,3 +17,7 @@ Twitter - https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.pn
 Instagram - https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_24,h_24,al_c,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.png
 
 Font Awesome - http://fontawesome.io
+
+Slider Javascript - https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow
+
+Jquery - https://jquery.com/download/
