@@ -51,7 +51,7 @@
 <div id="content">
 	<div class="content-title">ORDER FORM</div>
 	<div class="content-body">
-		<p>
+		<!-- <p>
 			“Yummy is an e-commerce company that specializes in snacks.
 			Formed in December 23, 2016 and based on Jakarta, Indonesia.
 			Until now Yummy have branch that located in many countries.
@@ -61,16 +61,56 @@
 			<img class="image-circle" src="assets/img/image-circle1.png">
 			<img class="image-circle" src="assets/img/image-circle2.png">
 			<img class="image-circle" src="assets/img/image-circle3.png">
+		</div> -->
+		<div class="order-form">
+			<div class="error-message">
+				<ul>
+				</ul>
+			</div>
+			<form>
+				<div class="form-component-name">
+					<label for="">Name</label>
+					<input type="text" id="fName">
+				</div>
+				<div class="form-component-address">
+					<label for="">Address</label>
+					<textarea id="fAddress" cols="30" rows="10"></textarea>
+				</div>
+				<div class="form-component-product">
+					<label for="">Product</label>
+					<select id="fProduct">
+						<option value="">- Choose -</option>
+						<option value="Biscuits">Biscuits</option>
+						<option value="Crackers">Crackers</option>
+						<option value="Chips">Chips</option>
+					</select>
+				</div>
+				<div class="form-component-qty">
+					<label for="">Quantity</label>
+					<input type="text" id="fQty">
+				</div>
+				<div class="form-component-method">
+					<label for="">Payment Method</label>
+					<input type="radio" name="rPayment" class="fPayment" id="payCash"> <label for="payCash">Cash</label>
+					<input type="radio" name="rPayment" class="fPayment" id="payCredit"> <label for="payCredit">Credit</label>
+				</div>
+				<div class="form-component-check">
+					<input type="checkbox" id="fAgree"> <label for="fAgree">I Agree Term and Conditions</label>
+				</div>
+				<div class="form-component-submit">
+					<button id="fSubmit" onload="">Submit</button>
+				</div>
+			</form>
 		</div>
 	</div>
 </div>
 
 <footer>
 	<p id="social-link">
-		<a class="fa fa-pinterest-p" href="#" target="_blank"></a>
-		<a class="fa fa-facebook" href="#" target="_blank"></a>
-		<a class="fa fa-instagram" href="#" target="_blank"></a>
-		<a class="fa fa-twitter" href="#" target="_blank"></a>
+		<a class="fa fa-pinterest-p" href="http://www.pinterest.com/" target="_blank"></a>
+		<a class="fa fa-facebook" href="http://www.facebook.com" target="_blank"></a>
+		<a class="fa fa-instagram" href="http://www.instagram.com" target="_blank"></a>
+		<a class="fa fa-twitter" href="http://www.twitter.com" target="_blank"></a>
 	</p>
 	<p id="copyright">&copy Copyright 2017</p>
 </footer>
