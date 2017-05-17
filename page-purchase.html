@@ -51,30 +51,20 @@
 <div id="content">
 	<div class="content-title">ORDER FORM</div>
 	<div class="content-body">
-		<!-- <p>
-			“Yummy is an e-commerce company that specializes in snacks.
-			Formed in December 23, 2016 and based on Jakarta, Indonesia.
-			Until now Yummy have branch that located in many countries.
-		</p>
-
-		<div id="image-box">
-			<img class="image-circle" src="assets/img/image-circle1.png">
-			<img class="image-circle" src="assets/img/image-circle2.png">
-			<img class="image-circle" src="assets/img/image-circle3.png">
-		</div> -->
 		<div class="order-form">
 			<div class="error-message">
 				<ul>
+					<li style="visibility: hidden">Error Message</li>
 				</ul>
 			</div>
-			<form>
+			<form class="purchase-form">
 				<div class="form-component-name">
 					<label for="">Name</label>
 					<input type="text" id="fName">
 				</div>
 				<div class="form-component-address">
 					<label for="">Address</label>
-					<textarea id="fAddress" cols="30" rows="10"></textarea>
+					<textarea id="fAddress" rows="10"></textarea>
 				</div>
 				<div class="form-component-product">
 					<label for="">Product</label>
@@ -91,8 +81,10 @@
 				</div>
 				<div class="form-component-method">
 					<label for="">Payment Method</label>
-					<input type="radio" name="rPayment" class="fPayment" id="payCash"> <label for="payCash">Cash</label>
-					<input type="radio" name="rPayment" class="fPayment" id="payCredit"> <label for="payCredit">Credit</label>
+					<div>
+						<input type="radio" name="rPayment" class="fPayment" id="payCash"> <label for="payCash">Cash</label>
+						<input type="radio" name="rPayment" class="fPayment" id="payCredit"> <label for="payCredit">Credit</label>
+					</div>
 				</div>
 				<div class="form-component-check">
 					<input type="checkbox" id="fAgree"> <label for="fAgree">I Agree Term and Conditions</label>

@@ -220,7 +220,89 @@ footer {
     opacity: .8;
 }
 
+/*Purchase*/
+
 .error-message ul li{
     color: red;
     list-style-type: none;
+}
+
+.order-form{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.order-form form div *{
+    vertical-align: middle;
+}
+
+.order-form form div {
+    margin-bottom: 30px;
+}
+
+.order-form form div:not(.form-component-method):not(.form-component-check) label{
+    display: inline-block;
+    width: 100px;
+}
+
+.order-form form div input[type=text], textarea, select {
+    font-family: sans-serif;
+    width: 400px;
+    border: 2px solid silver;
+}
+
+.order-form form div input[type=text]:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+
+.order-form form div input[type=text], select {
+    height: 30px;
+}
+
+.order-form form div select {
+    text-align-last: center;
+}
+
+.order-form form div button{
+    width: 150px;
+    height: 30px;
+}
+
+.order-form form div button:hover{
+    cursor: pointer;
+}
+
+/*Sponsor*/
+#image-sponsors{
+    margin: 0 auto;
+    width: 800px;
+}
+#image-sponsors img {
+    height: 50px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+#image-sponsors #gosend {
+    background-color: black;
+}
+
+/*Product*/
+#product-box{
+    display: table;
+}
+
+#product-box div{
+    display: table-cell;
+    vertical-align: top;
+}
+
+#product-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+#price{
+    font-weight: bold;
 }
